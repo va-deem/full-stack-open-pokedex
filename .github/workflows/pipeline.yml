@@ -35,3 +35,4 @@ jobs:
           heroku_email: "vs1905@gmail.com"
           healthcheck: "https://aqueous-dawn-74323.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
