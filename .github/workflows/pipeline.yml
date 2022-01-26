@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "aqueous-dawn-74323"
           heroku_email: "vs1905@gmail.com"
+          healthcheck: "https://aqueous-dawn-74323.herokuapp.com/health"
+          checkstring: "ok"
